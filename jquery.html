@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="jquery.css" />
+        <script>
+            $(document).ready(function () {
+
+
+                $("button:first").click(function ()
+                {
+                    alert("hi..");
+
+                    $(".para").hide('5000', (function () {
+
+                    }));
+                });
+                $(".b2").click(function ()
+                {
+                    $(".ani").animate({margin: '100px', padding: '100px', opacity: '0.5', fontSize: '30px', fontType: 'bold'}, 'slow');
+                });
+                $("#b3").click(function ()
+                {
+                    /*alert($(".para").text());*/
+                   alert($(".para").text());
+                    alert($(".para").html());
+                });
+               $(".b4").click(function()
+               {
+                    $("p:first").load("index.html");
+                 /*  $("p:first").load("jquery.css");*/
+               });
+            });
+        </script>
+    </head>
+    <body>
+        <p>This is a paragraph.</p>
+        <p class="para">OX Softwares<b>Private Limited</b></p> 
+
+        <button>Click me</button>
+        <button class="b2">Click me</button>
+        <button id="b3">show text</button>
+         <button class="b4">Load to the file</button>
+        <div class="ani">Animation</div>
+
+    </body>
+</html>

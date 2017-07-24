@@ -1,0 +1,110 @@
+#form{
+
+    margin-left:700px;
+}
+/*form li
+{
+ float:left; 
+ clear: left;  
+ width: 265px;  
+ text-align: right;  
+ margin-right: 10px; 
+ font-size:20px;
+ list-style: none;
+}
+input{  
+}
+*/
+h1{  
+
+    text-align: center;
+}  
+
+form {  
+    list-style: none;  
+    margin-bottom: 50px;  
+}  
+form div label  
+{  
+    float:left;  
+    clear: left;
+
+    width: 150px;  
+    font-family: "Arvo", fantasy;
+    font-size: 18px;
+    margin: 10px;  
+
+}  
+form div input, select, span   
+{  
+    float: left;  
+    margin-bottom: 50px;  
+
+
+}  
+
+form textarea   
+{  
+
+    float: left;  
+    width: 300px;  
+    height: 100px;  
+}
+[type="submit"]   
+{  
+    clear: left;  
+    margin: 20px 0 0 300px;  
+    font-size:30px
+
+
+
+} 
+[type="text"],#department,#feedBack,#submit{
+    background-color:whitesmoke;
+    border:1px solid lightblue;
+    border-radius: 5px;
+    font-size: 15px;
+
+}
+[type="radio"]+span,[type="checkbox"]+span
+{
+
+    width:60px;
+    font-family: Arial Black;
+    margin:2px 7spx;
+    font-size: 18px;
+    
+
+}
+form div input text{
+    width:400px;
+
+}
+#wid input{
+    width:280px;
+    height:25px;
+
+    padding: 3px;
+}
+#department{
+    width:290px;
+    height: 30px;
+    align-content: center;
+}
+.message-display{
+float: left;  
+text-align:center;
+color:red;
+}
+.hidden
+{
+    text-align:center;
+color:green;
+}
+/*.error{
+float: left;  
+display:none;
+text-align:center;
+color:green;
+padding:10px;
+}*/
